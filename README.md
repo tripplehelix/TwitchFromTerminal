@@ -3,7 +3,7 @@ Runs https://github.com/lambdan/whoislive then asks which steam to open in mpv
 
 ### You will need to install 
 
-[Streamlink](https://github.com/streamlink/streamlink)
+[Streamlink](https://github.com/streamlink/streamlink) & [mpv](https://github.com/mpv-player/mpv)
 
 then download
 
