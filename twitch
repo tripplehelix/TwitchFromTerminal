@@ -1,0 +1,7 @@
+#!/bin/sh
+
+python3 "/home/tom/builds/whoislive/whoislive.py"
+echo ""
+read -r -p "Which channel do you want to watch: " ANS
+
+streamlink --twitch-disable-ads --player=mpv --title "{author} - {category} - {title}" --default-stream best "https://twitch.tv/$ANS"
